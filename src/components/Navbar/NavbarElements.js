@@ -3,11 +3,11 @@ import { NavLink as Link } from "react-router-dom";
 import { FaCoffee } from "react-icons/fa";
 
 export const Nav = styled.nav`
-  background: transparent;
+  background: red;
   height: 5rem;
   display: flex;
   justify-content: center;
-  font-weight: 800;
+  font-weight: 700;
 `;
 
 export const NavLink = styled(Link)`
@@ -21,7 +21,7 @@ export const NavLink = styled(Link)`
   @media screen and(max-width: 400px) {
     position: absolute;
     top: 0.625em;
-    left: 25px;
+    left: 1.5625em;
   }
 `;
 
@@ -32,6 +32,11 @@ export const NavIcon = styled.div`
   right: 0;
   cursor: pointer;
   color: #fff;
+
+  p {
+    transform: translate(-175%, 100%);
+    font-weight: bold;
+  }
 `;
 
 export const Bars = styled(FaCoffee)`
