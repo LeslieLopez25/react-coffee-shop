@@ -1,11 +1,13 @@
 import React from "react";
-import { Nav, NavLink, NavIcon, Bars } from "./NavbarElements";
+import { Nav, NavLink, NavIcon, Bars, Sun } from "./NavbarElements";
 
 const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to="/">The Sun Rise Cafe</NavLink>
+        <NavLink to="/">
+          The Sunrise Cafe <Sun />
+        </NavLink>
         <NavIcon>
           <p>Menu</p>
           <Bars />
