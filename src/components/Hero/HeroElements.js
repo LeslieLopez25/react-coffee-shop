@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ImgBg from "../../images/Bg.jpg";
+import ImgBg from "../../images/shop3.jpg";
 
 export const HeroContainer = styled.div`
   background: linear-gradient(
@@ -8,17 +8,17 @@ export const HeroContainer = styled.div`
       rgba(88, 21, 26, 0.1) 100%
     ),
     url(${ImgBg});
-  height: 100%;
+  height: 100vh;
   background-position: center;
   background-size: cover;
 `;
 
-export const VideoBg = styled.video`
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-`;
+// export const VideoBg = styled.video`
+//   width: 50%;
+//   height: 100%;
+//   -o-object-fit: cover;
+//   object-fit: cover;
+// `;
 
 export const HeroContent = styled.div`
   height: calc(100vh - 80px);
@@ -47,19 +47,24 @@ export const HeroItems = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  font-size: clamp(2.5rem, 10vw);
+  color: rgb(139, 0, 0);
+  font-family: "Signika Negative", sans-serif;
+  font-size: clamp(2.5rem, 10vw, 5rem);
   margin-bottom: 1rem;
-  box-shadow: 3px 5px #e9ba23;
+  box-shadow: 3px 5px rgb(242, 243, 244);
   letter-spacing: 3px;
 `;
 
 export const HeroP = styled.p`
+  color: rgb(139, 0, 0);
   font-size: clamp(2rem, 2.5vw, 3rem);
   margin-bottom: 2rem;
+  font-family: "Signika Negative", sans-serif;
 `;
 
 export const HeroBtn = styled.button`
   font-size: 1.4rem;
+  font-family: "Signika Negative", sans-serif;
   padding: 1rem 4rem;
   border: none;
   background: #e31837;
