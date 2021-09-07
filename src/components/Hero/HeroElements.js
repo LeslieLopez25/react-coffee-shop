@@ -8,7 +8,7 @@ export const HeroContainer = styled.div`
       rgba(88, 21, 26, 0.1) 100%
     ),
     url(${ImgBg});
-  height: 100vh;
+  height: 100%;
   background-position: center;
   background-size: cover;
 `;
@@ -21,9 +21,8 @@ export const HeroContainer = styled.div`
 // `;
 
 export const HeroContent = styled.div`
-  height: calc(100vh - 80px);
+  height: calc(100% - 80px);
   max-height: 100%;
-  width: 100vw;
   padding: 0rem calc ((100vw - 1300px) /2);
 `;
 
