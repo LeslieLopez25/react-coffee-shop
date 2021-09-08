@@ -4,8 +4,8 @@ import ImgBg from "../../images/shop3.jpg";
 export const HeroContainer = styled.div`
   background: linear-gradient(
       to right,
-      rgba(188, 41, 9, 0.2) 0%,
-      rgba(88, 21, 26, 0.1) 100%
+      rgba(188, 41, 9, 0.2),
+      rgba(88, 21, 26, 0.1)
     ),
     url(${ImgBg});
   height: 100%;

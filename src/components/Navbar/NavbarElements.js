@@ -12,12 +12,12 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
   color: #ff8c00;
-  font-size: 2rem;
+  font-size: 75px;
   display: flex;
   align-items: center;
   text-decoration: none;
   cursor: pointer;
-  text-shadow: 1px 1px 3px #ffcc33;
+  text-shadow: 2px 2px 4px #dc143c;
 
   @media screen and(max-width: 400px) {
     position: absolute;
@@ -49,8 +49,8 @@ export const Bars = styled(FaCoffee)`
 `;
 
 export const Sun = styled(FaSun)`
-  font-size: 2rem;
+  font-size: 50px;
   position: absolute;
-  right: 33.125rem;
+  right: 370px;
   color: rgb(255, 195, 113);
 `;
