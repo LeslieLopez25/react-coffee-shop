@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import Navbar from "../Navbar";
 import Sidebar from "../Sidebar";
-import Video from "../../video/video.mp4";
 import {
   HeroContainer,
-  VideoBg,
   HeroContent,
   HeroItems,
   HeroH1,
@@ -30,7 +28,6 @@ const Hero = () => {
           <HeroBtn>Place Order</HeroBtn>
         </HeroItems>
       </HeroContent>
-      {/* <VideoBg autoPlay loop muted src={Video} type="video/mp4" /> */}
     </HeroContainer>
   );
 };

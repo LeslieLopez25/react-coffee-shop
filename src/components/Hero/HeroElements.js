@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ImgBg from "../../images/shop3.jpg";
+import ImgBg from "../../images/shop1.jpg";
 
 export const HeroContainer = styled.div`
   background: linear-gradient(
@@ -12,13 +12,6 @@ export const HeroContainer = styled.div`
   background-position: center;
   background-size: cover;
 `;
-
-// export const VideoBg = styled.video`
-//   width: 50%;
-//   height: 100%;
-//   -o-object-fit: cover;
-//   object-fit: cover;
-// `;
 
 export const HeroContent = styled.div`
   height: calc(100% - 80px);
