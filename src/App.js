@@ -15,6 +15,7 @@ import Footer from "./components/Footer";
 import Banner from "./components/BannerSections/Banner";
 import Shop from "./components/BannerSections/Shop";
 import VideoBanner from "./components/BannerSections/VideoBanner";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       />
       <VideoBanner />
       <Products heading="Try Out These Specials" data={productDataFive} />
+      <Gallery />
       <Footer />
     </Router>
   );

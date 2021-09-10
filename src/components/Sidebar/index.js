@@ -16,7 +16,7 @@ const index = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to="/">Pizza</SidebarLink>
+        <SidebarLink to="/">Drinks</SidebarLink>
         <SidebarLink to="/">Desserts</SidebarLink>
         <SidebarLink to="/">Full Menu</SidebarLink>
       </SidebarMenu>

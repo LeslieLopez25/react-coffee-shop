@@ -13,6 +13,7 @@ import {
   SocialMediaWrap,
   SocialIcons,
   SocialLogo,
+  Sun,
   SocialIconLink
 } from "./FooterElements";
 
@@ -22,7 +23,8 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">Pizza</SocialLogo>
+            <SocialLogo to="/">The Sunrise Cafe</SocialLogo>
+            <Sun />
             <SocialIcons>
               <SocialIconLink
                 href="/"

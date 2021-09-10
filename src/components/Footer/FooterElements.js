@@ -1,8 +1,16 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import FooterImg from "../../images/board.jpg";
+import { FaSun } from "react-icons/fa";
 
 export const FooterContainer = styled.footer`
-  background-color: #0d0909;
+  background: linear-gradient(
+      to right,
+      rgba(188, 41, 9, 0.8),
+      rgba(88, 21, 26, 0.8)
+    ),
+    url(${FooterImg});
+  background-size: cover;
 `;
 
 export const FooterWrap = styled.div`
@@ -33,7 +41,7 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const SocialLogo = styled(Link)`
-  color: #fff;
+  color: #ff8c00;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -42,6 +50,7 @@ export const SocialLogo = styled(Link)`
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
+  text-shadow: 1px 1px 3px #dc143c;
 `;
 
 export const SocialIcons = styled.div`
@@ -54,4 +63,12 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+`;
+
+export const Sun = styled(FaSun)`
+  font-size: 30px;
+  position: absolute;
+  top: 7805px;
+  left: 290px;
+  color: rgb(255, 195, 113);
 `;

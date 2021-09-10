@@ -39,13 +39,19 @@ export const NavIcon = styled.div`
     font-weight: bold;
     font-size: 1.5rem;
     color: #ff8c00;
+    text-shadow: 1px 1px 3px #dc143c;
   }
 `;
 
 export const Bars = styled(FaCoffee)`
   font-size: 2rem;
   transform: translate(-50%, -15%);
-  color: rgb(255, 248, 231);
+  color: #fff;
+
+  &:hover {
+    color: rgb(255, 195, 113);
+    transition: 0.2s ease-in-out;
+  }
 `;
 
 export const Sun = styled(FaSun)`
