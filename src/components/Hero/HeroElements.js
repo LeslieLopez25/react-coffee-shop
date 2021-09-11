@@ -39,7 +39,7 @@ export const HeroItems = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  color: rgb(139, 0, 0);
+  color: #9e0a01;
   font-family: "Signika Negative", sans-serif;
   font-size: clamp(2.5rem, 10vw, 5rem);
   margin-bottom: 1rem;
@@ -59,12 +59,12 @@ export const HeroBtn = styled.button`
   font-family: "Signika Negative", sans-serif;
   padding: 1rem 4rem;
   border: none;
-  background: #e31837;
+  background: #8b0000;
   color: #fff;
   transition: 0.2s ease-out;
 
   &:hover {
-    background: #ffc500;
+    background: #ff8c00;
     transition: 0.2s ease-out;
     cursor: pointer;
     color: #000;

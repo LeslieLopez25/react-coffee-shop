@@ -4,7 +4,7 @@ export const ProductsContainer = styled.div`
   width: 100%;
   min-height: 100%;
   padding: 5rem calc((100vw - 1300px) / 2);
-  background: #150f0f;
+  background: #3d0c02;
   color: #fff;
 `;
 
@@ -25,7 +25,7 @@ export const ProductImg = styled.img`
   height: 300px;
   min-width: 300px;
   max-width: 100%;
-  box-shadow: 8px 8px #fdc500;
+  box-shadow: 8px 8px #864c24;
 `;
 
 export const ProductsHeading = styled.h1`

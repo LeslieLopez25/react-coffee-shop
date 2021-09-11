@@ -17,7 +17,7 @@ export const NavLink = styled(Link)`
   align-items: center;
   text-decoration: none;
   cursor: pointer;
-  text-shadow: 2px 2px 4px #dc143c;
+  text-shadow: 2px 2px 4px #9e0a01;
 
   @media screen and(max-width: 400px) {
     position: absolute;
