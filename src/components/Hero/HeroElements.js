@@ -4,19 +4,19 @@ import ImgBg from "../../images/shop1.jpg";
 export const HeroContainer = styled.div`
   background: linear-gradient(
       to right,
-      rgba(188, 41, 9, 0.2),
-      rgba(88, 21, 26, 0.1)
+      hsl(32.9, 100%, 50%, 0.2),
+      hsl(0, 100%, 27.3%, 0.1)
     ),
     url(${ImgBg});
-  height: 100%;
   background-position: center;
   background-size: cover;
+  height: 100%;
 `;
 
 export const HeroContent = styled.div`
-  height: calc(100% - 80px);
+  height: calc(100% - 5rem);
   max-height: 100%;
-  padding: 0rem calc ((100vw - 1300px) /2);
+  padding: 0rem calc ((100vw - 81.25rem) /2);
 `;
 
 export const HeroItems = styled.div`
@@ -24,14 +24,14 @@ export const HeroItems = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
-  max-height: 100%;
+  color: hsl(0, 0%, 100%);
   padding: 0 2rem;
-  width: 650px;
-  color: #fff;
+  width: 40.62rem;
+  height: 37.5rem;
+  max-height: 100%;
+  font-weight: bold;
   text-transform: uppercase;
   line-height: 1;
-  font-weight: bold;
 
   @media screen and (max-width: 650px) {
     width: 100%;
@@ -39,34 +39,36 @@ export const HeroItems = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-  color: #9e0a01;
-  font-family: "Signika Negative", sans-serif;
+  color: hsl(3.4, 98.7%, 31.2%);
   font-size: clamp(2.5rem, 10vw, 5rem);
+  font-family: "Signika Negative", sans-serif;
+  letter-spacing: 0.187rem;
+  text-shadow: 0.125rem 0.125rem 0.25rem hsl(45, 100%, 60%);
   margin-bottom: 1rem;
-  box-shadow: 3px 5px rgb(242, 243, 244);
-  letter-spacing: 3px;
+  box-shadow: 0.187rem 0.31rem hsl(0, 16.7%, 7.1%);
 `;
 
 export const HeroP = styled.p`
-  color: rgb(139, 0, 0);
+  color: hsl(3.4, 98.7%, 31.2%);
   font-size: clamp(2rem, 2.5vw, 3rem);
-  margin-bottom: 2rem;
   font-family: "Signika Negative", sans-serif;
+  text-shadow: 0.0625rem 0.0625rem 0.125rem hsl(45, 100%, 60%);
+  margin-bottom: 2rem;
 `;
 
 export const HeroBtn = styled.button`
+  background: hsl(0, 100%, 27.3%);
+  color: hsl(0, 0%, 100%);
   font-size: 1.4rem;
   font-family: "Signika Negative", sans-serif;
   padding: 1rem 4rem;
   border: none;
-  background: #8b0000;
-  color: #fff;
   transition: 0.2s ease-out;
 
   &:hover {
-    background: #ff8c00;
+    background: hsl(32.9, 100%, 50%);
+    color: hsl(0, 16.7%, 7.1%);
     transition: 0.2s ease-out;
     cursor: pointer;
-    color: #000;
   }
 `;

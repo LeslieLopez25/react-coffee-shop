@@ -91,15 +91,15 @@ export const GalleryImg4 = styled.div`
 export const GalleryImg5 = styled.div`
   background: linear-gradient(
       to right,
-      rgba(188, 41, 9, 0.2),
-      rgba(88, 21, 26, 0.1)
+      hsl(32.9, 100%, 50%, 0.2),
+      hsl(0, 100%, 27.3%, 0.1)
     ),
     url(${Img5});
   background-size: cover;
+  position: absolute;
+  left: 67.5rem;
   width: 19.97%;
   height: 100%;
-  max-height: 400px;
-  position: absolute;
-  left: 1080px;
+  max-height: 25rem;
   padding: 0 1rem;
 `;

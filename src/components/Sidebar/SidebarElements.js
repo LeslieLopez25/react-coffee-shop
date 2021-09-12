@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 
 export const SidebarContainer = styled.aside`
-  position: fixed;
-  z-index: 999;
-  width: 350px;
-  height: 100%;
-  background: rgb(88, 21, 26);
   display: grid;
   align-items: center;
+  background: hsl(15, 50%, 26.7%);
+  position: fixed;
   top: 0;
+  width: 21.87rem;
+  height: 100%;
   transition: 0.3s ease-in-out;
   right: ${({ isOpen }) => (isOpen ? "0" : "-1000px")};
+  z-index: 999;
 
   @media screen and (max-width: 400px) {
     width: 100%;
@@ -20,28 +20,28 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: rgb(255, 195, 113);
+  color: hsl(45, 100%, 60%);
 `;
 
 export const Icon = styled.div`
+  background: transparent;
+  font-size: 2rem;
   position: absolute;
   top: 1.2rem;
   right: 1.5rem;
-  background: transparent;
   border: transparent;
-  font-size: 2rem;
-  cursor: pointer;
   outline: none;
+  cursor: pointer;
 `;
 
 export const SidebarMenu = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 80px);
+  grid-template-rows: repeat(4, 5rem);
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(3, 60px);
+    grid-template-rows: repeat(4, 3.75rem);
   }
 `;
 
@@ -49,15 +49,15 @@ export const SidebarLink = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
+  color: hsl(0, 0%, 100%);
   font-size: 1.5rem;
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  color: #fff;
   cursor: pointer;
 
   &:hover {
-    color: #ff8c00;
+    color: hsl(49.4, 100%, 64.5%);
     transition: 0.2s ease-in-out;
   }
 `;
@@ -68,20 +68,20 @@ export const SideBtnWrap = styled.div`
 `;
 
 export const SidebarRoute = styled(Link)`
-  background: rgb(139, 0, 0);
-  white-space: nowrap;
-  padding: 16px 64px;
-  color: #fff;
-  font-size: 16px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
+  background: hsl(32.9, 100%, 50%);
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
   text-decoration: none;
+  padding: 1rem 4rem;
+  border: none;
+  outline: none;
+  transition: 0.2s ease-in-out;
+  white-space: nowrap;
+  cursor: pointer;
 
   &:hover {
+    background: hsl(0, 100%, 27.3%);
+    color: hsl(0, 16.7%, 7.1%);
     transition: 0.2s ease-in-out;
-    background: #ff8c00;
-    color: #150f0f;
   }
 `;

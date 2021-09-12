@@ -3,60 +3,61 @@ import { NavLink as Link } from "react-router-dom";
 import { FaCoffee, FaSun } from "react-icons/fa";
 
 export const Nav = styled.nav`
-  background: transparent;
-  height: 5rem;
   display: flex;
   justify-content: center;
+  background: transparent;
   font-weight: 700;
+  height: 5rem;
 `;
 
 export const NavLink = styled(Link)`
-  color: #ff8c00;
-  font-size: 75px;
   display: flex;
   align-items: center;
+  color: hsl(32.9, 100%, 50%);
+  font-size: 50px;
   text-decoration: none;
+  text-shadow: 0.125rem 0.125rem 0.25rem hsl(3.4, 98.7%, 31.2%);
   cursor: pointer;
-  text-shadow: 2px 2px 4px #9e0a01;
 
-  @media screen and(max-width: 400px) {
+  @media screen and (max-width: 437px) {
+    font-size: 25px;
     position: absolute;
-    top: 0.625em;
-    left: 1.5625em;
+    top: 30px;
+    left: 25px;
   }
 `;
 
 export const NavIcon = styled.div`
   display: block;
+  color: hsl(0, 0%, 100%);
   position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
-  color: #fff;
 
   p {
-    transform: translate(-175%, 100%);
-    font-weight: bold;
+    color: hsl(32.9, 100%, 50%);
     font-size: 1.5rem;
-    color: #ff8c00;
-    text-shadow: 1px 1px 3px #dc143c;
-  }
-`;
-
-export const Bars = styled(FaCoffee)`
-  font-size: 2rem;
-  transform: translate(-50%, -15%);
-  color: #fff;
-
-  &:hover {
-    color: rgb(255, 195, 113);
-    transition: 0.2s ease-in-out;
+    font-weight: bold;
+    text-shadow: 0.0625rem 0.0625rem 0.1875rem hsl(3.4, 98.7%, 31.2%);
+    transform: translate(-175%, 100%);
   }
 `;
 
 export const Sun = styled(FaSun)`
-  font-size: 50px;
+  color: hsl(49.4, 100%, 64.5%);
+  font-size: 3.125rem;
   position: absolute;
-  right: 370px;
-  color: rgb(255, 195, 113);
+  right: 450px;
+`;
+
+export const Bars = styled(FaCoffee)`
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  transform: translate(-50%, -15%);
+
+  &:hover {
+    color: hsl(49.4, 100%, 64.5%);
+    transition: 0.2s ease-in-out;
+  }
 `;

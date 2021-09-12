@@ -1,6 +1,6 @@
-import product1 from "../../images/coffee1.jpg";
-import product2 from "../../images/coffee2.jpg";
-import product3 from "../../images/coffee3.jpg";
+import drink1 from "../../images/coffee1.jpg";
+import drink2 from "../../images/coffee2.jpg";
+import drink3 from "../../images/coffee3.jpg";
 import dessert1 from "../../images/dessert1.jpg";
 import dessert2 from "../../images/dessert2.jpg";
 import dessert3 from "../../images/dessert3.jpg";
@@ -16,31 +16,31 @@ import specials3 from "../../images/tiramisu.jpg";
 
 export const productData = [
   {
-    img: product1,
-    alt: "Pizza",
-    name: "Supreme Pizza",
+    img: drink1,
+    alt: "Coffee",
+    name: "Black Coffee",
     desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+      "To go java shop redeye spoon cup cream eu whipped extraction coffee.",
+    price: "$1.99",
     button: "Add to Cart"
   },
 
   {
-    img: product2,
-    alt: "Pizza",
-    name: "Supreme Pizza",
+    img: drink2,
+    alt: "Coffee",
+    name: "Latte",
     desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+      "To go java shop redeye spoon cup cream eu whipped extraction coffee.",
+    price: "$1.99",
     button: "Add to Cart"
   },
   {
-    img: product3,
-    alt: "Pizza",
-    name: "Supreme Pizza",
+    img: drink3,
+    alt: "Coffee",
+    name: "Iced coffee",
     desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+      "To go java shop redeye spoon cup cream eu whipped extraction coffee.",
+    price: "$1.99",
     button: "Add to Cart"
   }
 ];
@@ -48,30 +48,30 @@ export const productData = [
 export const productDataTwo = [
   {
     img: dessert1,
-    alt: "Pizza",
-    name: "Supreme Pizza",
+    alt: "Dessert",
+    name: "Macarrones",
     desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+      "As iced whipped, redeye aromatic macchiato brewed beans medium sit cortado.",
+    price: "$2.99",
     button: "Add to Cart"
   },
 
   {
     img: dessert2,
-    alt: "Pizza",
-    name: "Supreme Pizza",
+    alt: "Dessert",
+    name: "Brownies",
     desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+      "As iced whipped, redeye aromatic macchiato brewed beans medium sit cortado.",
+    price: "$2.99",
     button: "Add to Cart"
   },
   {
     img: dessert3,
-    alt: "Pizza",
-    name: "Supreme Pizza",
+    alt: "Dessert",
+    name: "Chocolate Donut",
     desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+      "As iced whipped, redeye aromatic macchiato brewed beans medium sit cortado.",
+    price: "$2.99",
     button: "Add to Cart"
   }
 ];
@@ -79,30 +79,27 @@ export const productDataTwo = [
 export const productDataThree = [
   {
     img: sandwich1,
-    alt: "Pizza",
-    name: "Supreme Pizza",
-    desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+    alt: "Sandwich",
+    name: "Bacon Cheese Sandwich",
+    desc: "Mug pumpkin spice brewed, and that to go pumpkin spice aromatic.",
+    price: "$3.99",
     button: "Add to Cart"
   },
 
   {
     img: sandwich2,
-    alt: "Pizza",
-    name: "Supreme Pizza",
-    desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+    alt: "Sandwich",
+    name: "Egg Sandwich",
+    desc: "Mug pumpkin spice brewed, and that to go pumpkin spice aromatic.",
+    price: "$3.99",
     button: "Add to Cart"
   },
   {
     img: sandwich3,
-    alt: "Pizza",
-    name: "Supreme Pizza",
-    desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+    alt: "Sandwich",
+    name: "Ham Sandwich",
+    desc: "Mug pumpkin spice brewed, and that to go pumpkin spice aromatic.",
+    price: "$3.99",
     button: "Add to Cart"
   }
 ];
@@ -110,30 +107,27 @@ export const productDataThree = [
 export const productDataFour = [
   {
     img: soup1,
-    alt: "Pizza",
-    name: "Supreme Pizza",
-    desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+    alt: "Soup",
+    name: "Broccoli Soup",
+    desc: "Kopi-luwak crema qui crema cinnamon robusta acerbic steamed.",
+    price: "$6.99",
     button: "Add to Cart"
   },
 
   {
     img: soup2,
-    alt: "Pizza",
-    name: "Supreme Pizza",
-    desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+    alt: "Soup",
+    name: "Pea Soup",
+    desc: "Kopi-luwak crema qui crema cinnamon robusta acerbic steamed.",
+    price: "$6.99",
     button: "Add to Cart"
   },
   {
     img: soup3,
-    alt: "Pizza",
-    name: "Supreme Pizza",
-    desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+    alt: "Soup",
+    name: "Tomato Soup",
+    desc: "Kopi-luwak crema qui crema cinnamon robusta acerbic steamed.",
+    price: "$6.99",
     button: "Add to Cart"
   }
 ];
@@ -141,30 +135,30 @@ export const productDataFour = [
 export const productDataFive = [
   {
     img: specials1,
-    alt: "Pizza",
-    name: "Supreme Pizza",
+    alt: "Special",
+    name: "Belgian Waffle",
     desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+      "Aromatic ut aroma latte blue mountain, grinder black doppio percolator sugar.",
+    price: "$9.99",
     button: "Add to Cart"
   },
 
   {
     img: specials2,
-    alt: "Pizza",
-    name: "Supreme Pizza",
+    alt: "Special",
+    name: "Quiche",
     desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+      "Aromatic ut aroma latte blue mountain, grinder black doppio percolator sugar.",
+    price: "$9.99",
     button: "Add to Cart"
   },
   {
     img: specials3,
-    alt: "Pizza",
-    name: "Supreme Pizza",
+    alt: "Special",
+    name: "Tiramisu",
     desc:
-      "Bacon ipsum dolor amet kevin tongue alcatra spare ribs shoulder jerky frankfurter tenderloin tail beef fatback meatloaf ham hock andouille shank.",
-    price: "$19.99",
+      "Aromatic ut aroma latte blue mountain, grinder black doppio percolator sugar.",
+    price: "$9.99",
     button: "Add to Cart"
   }
 ];
