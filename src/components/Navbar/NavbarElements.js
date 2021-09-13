@@ -14,16 +14,16 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   color: hsl(32.9, 100%, 50%);
-  font-size: 50px;
+  font-size: 3.12rem;
   text-decoration: none;
   text-shadow: 0.125rem 0.125rem 0.25rem hsl(3.4, 98.7%, 31.2%);
   cursor: pointer;
 
-  @media screen and (max-width: 437px) {
-    font-size: 25px;
+  @media screen and (max-width: 40.62em) {
+    font-size: 1.87rem;
     position: absolute;
-    top: 30px;
-    left: 25px;
+    top: 1.56rem;
+    left: 5.62rem;
   }
 `;
 
@@ -41,6 +41,13 @@ export const NavIcon = styled.div`
     font-weight: bold;
     text-shadow: 0.0625rem 0.0625rem 0.1875rem hsl(3.4, 98.7%, 31.2%);
     transform: translate(-175%, 100%);
+
+    @media screen and (max-width: 40.62em) {
+      font-size: 1.25rem;
+      position: absolute;
+      top: -1.25rem;
+      right: -1.87rem;
+    }
   }
 `;
 
@@ -48,7 +55,14 @@ export const Sun = styled(FaSun)`
   color: hsl(49.4, 100%, 64.5%);
   font-size: 3.125rem;
   position: absolute;
-  right: 450px;
+  right: 28.12rem;
+
+  @media screen and (max-width: 40.62em) {
+    font-size: 1.87rem;
+    position: absolute;
+    top: 0.31rem;
+    left: 12.5rem;
+  }
 `;
 
 export const Bars = styled(FaCoffee)`
@@ -59,5 +73,12 @@ export const Bars = styled(FaCoffee)`
   &:hover {
     color: hsl(49.4, 100%, 64.5%);
     transition: 0.2s ease-in-out;
+  }
+
+  @media screen and (max-width: 40.62em) {
+    font-size: 1.56rem;
+    position: absolute;
+    top: 0.625rem;
+    right: 0;
   }
 `;

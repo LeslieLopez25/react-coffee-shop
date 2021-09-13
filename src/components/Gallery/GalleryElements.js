@@ -8,11 +8,11 @@ import Img5 from "../../images/coffee-machine.jpg";
 export const GalleryContainer = styled.div`
   background: linear-gradient(
     to right,
-    rgba(188, 41, 9, 0.2),
-    rgba(88, 21, 26, 0.1)
+    hsl(32.9, 100%, 50%, 0.2),
+    hsl(0, 100%, 27.3%, 0.1)
   );
-  height: 400px;
-  max-height: 1000px;
+  height: 25rem;
+  max-height: 62.5rem;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -27,14 +27,14 @@ export const GalleryContainer = styled.div`
 export const GalleryImg1 = styled.div`
   background: linear-gradient(
       to right,
-      rgba(188, 41, 9, 0.2),
-      rgba(88, 21, 26, 0.1)
+      hsl(32.9, 100%, 50%, 0.2),
+      hsl(0, 100%, 27.3%, 0.1)
     ),
     url(${Img1});
   background-size: cover;
   width: 20%;
   height: 100%;
-  max-height: 400px;
+  max-height: 25rem;
   position: absolute;
   left: 0;
   padding: 0 1rem;
@@ -43,48 +43,48 @@ export const GalleryImg1 = styled.div`
 export const GalleryImg2 = styled.div`
   background: linear-gradient(
       to right,
-      rgba(188, 41, 9, 0.2),
-      rgba(88, 21, 26, 0.1)
+      hsl(32.9, 100%, 50%, 0.2),
+      hsl(0, 100%, 27.3%, 0.1)
     ),
     url(${Img2});
   background-size: cover;
   width: 20%;
   height: 100%;
-  max-height: 400px;
+  max-height: 25rem;
   position: absolute;
-  left: 270px;
+  left: 16.87rem;
   padding: 0 1rem;
 `;
 
 export const GalleryImg3 = styled.div`
   background: linear-gradient(
       to right,
-      rgba(188, 41, 9, 0.2),
-      rgba(88, 21, 26, 0.1)
+      hsl(32.9, 100%, 50%, 0.2),
+      hsl(0, 100%, 27.3%, 0.1)
     ),
     url(${Img3});
   background-size: cover;
   width: 20%;
   height: 100%;
-  max-height: 400px;
+  max-height: 25rem;
   position: absolute;
-  left: 540px;
+  left: 33.75rem;
   padding: 0 1rem;
 `;
 
 export const GalleryImg4 = styled.div`
   background: linear-gradient(
       to right,
-      rgba(188, 41, 9, 0.2),
-      rgba(88, 21, 26, 0.1)
+      hsl(32.9, 100%, 50%, 0.2),
+      hsl(0, 100%, 27.3%, 0.1)
     ),
     url(${Img4});
   background-size: cover;
   width: 20%;
   height: 100%;
-  max-height: 400px;
+  max-height: 25rem;
   position: absolute;
-  left: 810px;
+  left: 50.62rem;
   padding: 0 1rem;
 `;
 

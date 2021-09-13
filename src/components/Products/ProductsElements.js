@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const ProductsContainer = styled.div`
-  width: 100%;
-  min-height: 100%;
-  padding: 5rem calc((100vw - 1300px) / 2);
   background: hsl(10.2, 93.7%, 12.4%);
   color: hsl(0, 0%, 100%);
+  width: 100%;
+  min-height: 100%;
+  padding: 5rem calc((100vw - 81.25rem) / 2);
 `;
 
 export const ProductWrapper = styled.div`
@@ -16,16 +16,16 @@ export const ProductWrapper = styled.div`
 `;
 
 export const ProductCard = styled.div`
-  margin: 0 2rem;
   line-height: 2;
-  width: 300px;
+  width: 18.75rem;
+  margin: 0 2rem;
 `;
 
 export const ProductImg = styled.img`
-  height: 300px;
-  min-width: 300px;
+  min-width: 18.75rem;
   max-width: 100%;
-  box-shadow: 8px 8px hsl(24.5, 57.6%, 33.3%);
+  height: 18.75rem;
+  box-shadow: 0.5rem 0.5rem hsl(24.5, 57.6%, 33.3%);
 `;
 
 export const ProductsHeading = styled.h1`
@@ -35,8 +35,8 @@ export const ProductsHeading = styled.h1`
 `;
 
 export const ProductTitle = styled.h2`
-  font-weight: 400;
   font-size: 1.5rem;
+  font-weight: 400;
 `;
 
 export const ProductInfo = styled.div`
@@ -44,8 +44,8 @@ export const ProductInfo = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
   text-align: center;
+  padding: 2rem;
 `;
 
 export const ProductDesc = styled.p`
@@ -53,22 +53,22 @@ export const ProductDesc = styled.p`
 `;
 
 export const ProductPrice = styled.p`
-  margin-bottom: 1rem;
   font-size: 2rem;
+  margin-bottom: 1rem;
 `;
 
 export const ProductButton = styled.button`
+  background: hsl(3.4, 98.7%, 31.2%);
+  color: hsl(0, 0%, 100%);
   font-size: 1rem;
   padding: 1rem 4rem;
   border: none;
-  background: hsl(3.4, 98.7%, 31.2%);
-  color: hsl(0, 0%, 100%);
   transition: 0.2 ease-out;
 
   &:hover {
     background: hsl(32.9, 100%, 50%);
+    color: hsl(0, 16.7%, 7.1%);
     transition: 0.2s ease-out;
     cursor: pointer;
-    color: hsl(0, 16.7%, 7.1%);
   }
 `;

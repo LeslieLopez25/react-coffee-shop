@@ -22,4 +22,8 @@ export const VideoBg = styled.video`
   object-fit: cover;
   width: 84.31rem;
   height: 100%;
+
+  @media screen and (max-width: 40.62em) {
+    width: 27.31rem;
+  }
 `;
