@@ -16,7 +16,6 @@ const Gallery = () => {
       <GalleryImg3></GalleryImg3>
       <GalleryImg4></GalleryImg4>
       <GalleryImg5></GalleryImg5>
-      <MediaImg></MediaImg>
     </GalleryContainer>
   );
 };

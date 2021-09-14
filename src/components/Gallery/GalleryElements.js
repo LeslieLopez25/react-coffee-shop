@@ -38,6 +38,13 @@ export const GalleryImg1 = styled.div`
   position: absolute;
   left: 0;
   padding: 0 1rem;
+
+  @media screen and (max-width: 40.62em) {
+    width: 30%;
+    height: 100%;
+    -o-object-fit: cover;
+    z-index: 1;
+  }
 `;
 
 export const GalleryImg2 = styled.div`
@@ -54,6 +61,14 @@ export const GalleryImg2 = styled.div`
   position: absolute;
   left: 16.87rem;
   padding: 0 1rem;
+
+  @media screen and (max-width: 40.62em) {
+    position: absolute;
+    left: 80px;
+    width: 60%;
+    height: 100%;
+    -o-object-fit: cover;
+  }
 `;
 
 export const GalleryImg3 = styled.div`
@@ -70,6 +85,10 @@ export const GalleryImg3 = styled.div`
   position: absolute;
   left: 33.75rem;
   padding: 0 1rem;
+
+  @media screen and (max-width: 40.62em) {
+    display: none;
+  }
 `;
 
 export const GalleryImg4 = styled.div`
@@ -86,6 +105,10 @@ export const GalleryImg4 = styled.div`
   position: absolute;
   left: 50.62rem;
   padding: 0 1rem;
+
+  @media screen and (max-width: 40.62em) {
+    display: none;
+  }
 `;
 
 export const GalleryImg5 = styled.div`
@@ -102,4 +125,10 @@ export const GalleryImg5 = styled.div`
   height: 100%;
   max-height: 25rem;
   padding: 0 1rem;
+
+  @media screen and (max-width: 40.62em) {
+    position: absolute;
+    left: 290px;
+    width: 33.6%;
+  }
 `;
