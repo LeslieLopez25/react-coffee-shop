@@ -25,4 +25,4 @@ White = hsl(0, 0%, 100%)
 
 ### Screenshots
 
-<img src="images/React-website.png" width="400"> <img src="images/React-website2.png" width="400">
+<img src="src/images/React-website.png" width="400"> <img src="src/images/React-website2.png" width="400">
