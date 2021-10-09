@@ -59,6 +59,10 @@ export const SocialLogo = styled(Link)`
   }
 `;
 
+export const WebsiteRights = styled.div`
+  color: hsl(0, 0%, 100%);
+`;
+
 export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;

@@ -13,6 +13,7 @@ import {
   SocialMediaWrap,
   SocialIcons,
   SocialLogo,
+  WebsiteRights,
   Sun,
   SocialIconLink
 } from "./FooterElements";
@@ -25,6 +26,9 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialLogo to="/">The Sunrise Cafe</SocialLogo>
             <Sun />
+            <WebsiteRights>
+              The Sunrise Cafe © {new Date().getFullYear()}
+            </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
                 href="/"

@@ -6,22 +6,22 @@ import Img4 from "../../images/person2.jpg";
 import Img5 from "../../images/coffee-machine.jpg";
 
 export const GalleryContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(
     to right,
     hsl(32.9, 100%, 50%, 0.2),
     hsl(0, 100%, 27.3%, 0.1)
   );
-  height: 25rem;
-  max-height: 62.5rem;
   background-position: center;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   text-align: center;
   padding: 0 1rem;
+  max-height: 62.5rem;
+  height: 25rem;
 `;
 
 export const GalleryImg1 = styled.div`
@@ -32,17 +32,17 @@ export const GalleryImg1 = styled.div`
     ),
     url(${Img1});
   background-size: cover;
-  width: 20%;
-  height: 100%;
-  max-height: 25rem;
   position: absolute;
   left: 0;
   padding: 0 1rem;
+  width: 20%;
+  max-height: 25rem;
+  height: 100%;
 
   @media screen and (max-width: 40.62em) {
+    -o-object-fit: cover;
     width: 30%;
     height: 100%;
-    -o-object-fit: cover;
     z-index: 1;
   }
 `;
@@ -55,19 +55,19 @@ export const GalleryImg2 = styled.div`
     ),
     url(${Img2});
   background-size: cover;
-  width: 20%;
-  height: 100%;
-  max-height: 25rem;
   position: absolute;
   left: 16.87rem;
   padding: 0 1rem;
+  width: 20%;
+  max-height: 25rem;
+  height: 100%;
 
   @media screen and (max-width: 40.62em) {
+    -o-object-fit: cover;
     position: absolute;
-    left: 80px;
+    left: 5rem;
     width: 60%;
     height: 100%;
-    -o-object-fit: cover;
   }
 `;
 
@@ -79,12 +79,12 @@ export const GalleryImg3 = styled.div`
     ),
     url(${Img3});
   background-size: cover;
-  width: 20%;
-  height: 100%;
-  max-height: 25rem;
   position: absolute;
   left: 33.75rem;
   padding: 0 1rem;
+  max-height: 25rem;
+  width: 20%;
+  height: 100%;
 
   @media screen and (max-width: 40.62em) {
     display: none;
@@ -99,12 +99,12 @@ export const GalleryImg4 = styled.div`
     ),
     url(${Img4});
   background-size: cover;
-  width: 20%;
-  height: 100%;
-  max-height: 25rem;
   position: absolute;
   left: 50.62rem;
   padding: 0 1rem;
+  width: 20%;
+  max-height: 25rem;
+  height: 100%;
 
   @media screen and (max-width: 40.62em) {
     display: none;
@@ -121,14 +121,14 @@ export const GalleryImg5 = styled.div`
   background-size: cover;
   position: absolute;
   left: 67.5rem;
-  width: 19.97%;
-  height: 100%;
-  max-height: 25rem;
   padding: 0 1rem;
+  width: 19.97%;
+  max-height: 25rem;
+  height: 100%;
 
   @media screen and (max-width: 40.62em) {
     position: absolute;
-    left: 290px;
+    left: 18.12rem;
     width: 33.6%;
   }
 `;
