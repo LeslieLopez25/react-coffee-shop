@@ -24,6 +24,6 @@ export const VideoBg = styled.video`
   height: 100%;
 
   @media screen and (max-width: 40.62em) {
-    width: 27.31rem;
+    width: 23.4rem;
   }
 `;

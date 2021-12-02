@@ -129,6 +129,6 @@ export const GalleryImg5 = styled.div`
   @media screen and (max-width: 40.62em) {
     position: absolute;
     left: 18.12rem;
-    width: 33.6%;
+    width: 22.8%;
   }
 `;

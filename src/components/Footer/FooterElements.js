@@ -54,13 +54,18 @@ export const SocialLogo = styled(Link)`
 
   @media screen and (max-width: 40.62em) {
     position: relative;
-    top: 0;
-    left: -0.9375rem;
+    bottom: 0.625rem;
+    left: 0;
   }
 `;
 
 export const WebsiteRights = styled.div`
   color: hsl(0, 0%, 100%);
+
+  @media screen and (max-width: 40.62em) {
+    position: relative;
+    bottom: 0.8125rem;
+  }
 `;
 
 export const SocialIcons = styled.div`
@@ -77,6 +82,11 @@ export const SocialIconLink = styled.a`
   &:hover {
     color: hsl(24.6, 33.7%, 32.5%);
   }
+
+  @media screen and (max-width: 40.62em) {
+    position: relative;
+    top: 0.625rem;
+  }
 `;
 
 export const Sun = styled(FaSun)`
@@ -88,7 +98,7 @@ export const Sun = styled(FaSun)`
 
   @media screen and (max-width: 40.62em) {
     position: absolute;
-    top: 866.06rem;
-    left: 18.12rem;
+    top: 870.5rem;
+    left: 17.12rem;
   }
 `;
