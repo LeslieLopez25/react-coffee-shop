@@ -7,11 +7,11 @@ import dessert3 from "../../images/dessert3.jpg";
 import sandwich1 from "../../images/sandwich1.jpg";
 import sandwich2 from "../../images/sandwich2.jpg";
 import sandwich3 from "../../images/sandwich3.jpg";
-import soup1 from "../../images/soup1.jpg";
+import soup1 from "../../images/soup1.jpeg";
 import soup2 from "../../images/soup2.jpg";
 import soup3 from "../../images/soup3.jpg";
 import specials1 from "../../images/belgium-waffles.jpg";
-import specials2 from "../../images/quiche.jpg";
+import specials2 from "../../images/quiche.jpeg";
 import specials3 from "../../images/tiramisu.jpg";
 
 export const productData = [

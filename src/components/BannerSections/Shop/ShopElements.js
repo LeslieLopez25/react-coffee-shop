@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ShopPic from "../../../images/shop2.jpg";
+import ShopPic from "../../../images/shop2.jpeg";
 
 export const ShopContainer = styled.div`
   display: flex;
