@@ -5,8 +5,8 @@ import {
   GalleryImg2,
   GalleryImg3,
   GalleryImg4,
-  GalleryImg5
-} from "./GalleryElements";
+  GalleryImg5,
+} from "./gallery.styles";
 
 const Gallery = () => {
   return (

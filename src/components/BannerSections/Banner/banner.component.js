@@ -1,5 +1,5 @@
 import React from "react";
-import { BannerContainer } from "./BannerElements";
+import { BannerContainer } from "./banner.styles";
 
 const Banner = () => {
   return <BannerContainer></BannerContainer>;

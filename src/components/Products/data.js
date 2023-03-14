@@ -14,76 +14,70 @@ import specials1 from "../../images/belgium-waffles.jpg";
 import specials2 from "../../images/quiche.jpeg";
 import specials3 from "../../images/tiramisu.jpg";
 
-export const productData = [
+export const coffeeData = [
   {
     img: drink1,
     alt: "Coffee",
     name: "Black Coffee",
-    desc:
-      "To go java shop redeye spoon cup cream eu whipped extraction coffee.",
+    desc: "To go java shop redeye spoon cup cream eu whipped extraction coffee.",
     price: "$1.99",
-    button: "Add to Cart"
+    button: "Add to Cart",
   },
 
   {
     img: drink2,
     alt: "Coffee",
     name: "Latte",
-    desc:
-      "To go java shop redeye spoon cup cream eu whipped extraction coffee.",
+    desc: "To go java shop redeye spoon cup cream eu whipped extraction coffee.",
     price: "$1.99",
-    button: "Add to Cart"
+    button: "Add to Cart",
   },
   {
     img: drink3,
     alt: "Coffee",
     name: "Iced coffee",
-    desc:
-      "To go java shop redeye spoon cup cream eu whipped extraction coffee.",
+    desc: "To go java shop redeye spoon cup cream eu whipped extraction coffee.",
     price: "$1.99",
-    button: "Add to Cart"
-  }
+    button: "Add to Cart",
+  },
 ];
 
-export const productDataTwo = [
+export const dessertData = [
   {
     img: dessert1,
     alt: "Dessert",
     name: "Macarrones",
-    desc:
-      "As iced whipped, redeye aromatic macchiato brewed beans medium sit cortado.",
+    desc: "As iced whipped, redeye aromatic macchiato brewed beans medium sit cortado.",
     price: "$2.99",
-    button: "Add to Cart"
+    button: "Add to Cart",
   },
 
   {
     img: dessert2,
     alt: "Dessert",
     name: "Brownies",
-    desc:
-      "As iced whipped, redeye aromatic macchiato brewed beans medium sit cortado.",
+    desc: "As iced whipped, redeye aromatic macchiato brewed beans medium sit cortado.",
     price: "$2.99",
-    button: "Add to Cart"
+    button: "Add to Cart",
   },
   {
     img: dessert3,
     alt: "Dessert",
     name: "Chocolate Donut",
-    desc:
-      "As iced whipped, redeye aromatic macchiato brewed beans medium sit cortado.",
+    desc: "As iced whipped, redeye aromatic macchiato brewed beans medium sit cortado.",
     price: "$2.99",
-    button: "Add to Cart"
-  }
+    button: "Add to Cart",
+  },
 ];
 
-export const productDataThree = [
+export const sandwichData = [
   {
     img: sandwich1,
     alt: "Sandwich",
     name: "Bacon Cheese Sandwich",
     desc: "Mug pumpkin spice brewed, and that to go pumpkin spice aromatic.",
     price: "$3.99",
-    button: "Add to Cart"
+    button: "Add to Cart",
   },
 
   {
@@ -92,7 +86,7 @@ export const productDataThree = [
     name: "Egg Sandwich",
     desc: "Mug pumpkin spice brewed, and that to go pumpkin spice aromatic.",
     price: "$3.99",
-    button: "Add to Cart"
+    button: "Add to Cart",
   },
   {
     img: sandwich3,
@@ -100,18 +94,18 @@ export const productDataThree = [
     name: "Ham Sandwich",
     desc: "Mug pumpkin spice brewed, and that to go pumpkin spice aromatic.",
     price: "$3.99",
-    button: "Add to Cart"
-  }
+    button: "Add to Cart",
+  },
 ];
 
-export const productDataFour = [
+export const soupData = [
   {
     img: soup1,
     alt: "Soup",
     name: "Broccoli Soup",
     desc: "Kopi-luwak crema qui crema cinnamon robusta acerbic steamed.",
     price: "$6.99",
-    button: "Add to Cart"
+    button: "Add to Cart",
   },
 
   {
@@ -120,7 +114,7 @@ export const productDataFour = [
     name: "Pea Soup",
     desc: "Kopi-luwak crema qui crema cinnamon robusta acerbic steamed.",
     price: "$6.99",
-    button: "Add to Cart"
+    button: "Add to Cart",
   },
   {
     img: soup3,
@@ -128,37 +122,34 @@ export const productDataFour = [
     name: "Tomato Soup",
     desc: "Kopi-luwak crema qui crema cinnamon robusta acerbic steamed.",
     price: "$6.99",
-    button: "Add to Cart"
-  }
+    button: "Add to Cart",
+  },
 ];
 
-export const productDataFive = [
+export const specialsData = [
   {
     img: specials1,
     alt: "Special",
     name: "Belgian Waffle",
-    desc:
-      "Aromatic ut aroma latte blue mountain, grinder black doppio percolator sugar.",
+    desc: "Aromatic ut aroma latte blue mountain, grinder black doppio percolator sugar.",
     price: "$9.99",
-    button: "Add to Cart"
+    button: "Add to Cart",
   },
 
   {
     img: specials2,
     alt: "Special",
     name: "Quiche",
-    desc:
-      "Aromatic ut aroma latte blue mountain, grinder black doppio percolator sugar.",
+    desc: "Aromatic ut aroma latte blue mountain, grinder black doppio percolator sugar.",
     price: "$9.99",
-    button: "Add to Cart"
+    button: "Add to Cart",
   },
   {
     img: specials3,
     alt: "Special",
     name: "Tiramisu",
-    desc:
-      "Aromatic ut aroma latte blue mountain, grinder black doppio percolator sugar.",
+    desc: "Aromatic ut aroma latte blue mountain, grinder black doppio percolator sugar.",
     price: "$9.99",
-    button: "Add to Cart"
-  }
+    button: "Add to Cart",
+  },
 ];

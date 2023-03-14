@@ -4,22 +4,22 @@ import {
   ProductWrapper,
   ProductsHeading,
   ProductTitle,
-  ProductCard,
+  ProductSection,
   ProductImg,
   ProductInfo,
   ProductDesc,
   ProductPrice,
-  ProductButton
-} from "./ProductsElements";
+  ProductButton,
+} from "./product-card.styles";
 
-const Products = ({ heading, data }) => {
+const ProductCard = ({ heading, data }) => {
   return (
     <ProductsContainer>
       <ProductsHeading>{heading}</ProductsHeading>
       <ProductWrapper>
         {data.map((product, index) => {
           return (
-            <ProductCard key={index}>
+            <ProductSection key={index}>
               <ProductImg src={product.img} alt={product.alt} />
               <ProductInfo>
                 <ProductTitle>{product.name}</ProductTitle>
@@ -27,7 +27,7 @@ const Products = ({ heading, data }) => {
                 <ProductPrice>{product.price}</ProductPrice>
                 <ProductButton>{product.button}</ProductButton>
               </ProductInfo>
-            </ProductCard>
+            </ProductSection>
           );
         })}
       </ProductWrapper>
@@ -35,4 +35,4 @@ const Products = ({ heading, data }) => {
   );
 };
 
-export default Products;
+export default ProductCard;

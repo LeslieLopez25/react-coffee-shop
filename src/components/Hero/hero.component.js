@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import Navbar from "../Navbar";
-import Sidebar from "../Sidebar";
+import Navbar from "../Navbar/navbar.component";
+import Sidebar from "../Sidebar/sidebar.component";
 import {
   HeroContainer,
   HeroContent,
   HeroItems,
   HeroH1,
   HeroP,
-  HeroBtn
-} from "./HeroElements";
+  HeroBtn,
+} from "./hero.styles";
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);

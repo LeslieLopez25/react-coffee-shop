@@ -15,7 +15,7 @@ export const ProductWrapper = styled.div`
   margin: 0 auto;
 `;
 
-export const ProductCard = styled.div`
+export const ProductSection = styled.div`
   line-height: 2;
   width: 18.75rem;
   margin: 0 2rem;

@@ -6,8 +6,8 @@ import {
   SidebarMenu,
   SidebarLink,
   SidebarRoute,
-  SideBtnWrap
-} from "./SidebarElements";
+  SideBtnWrap,
+} from "./sidebar.styles";
 
 const index = ({ isOpen, toggle }) => {
   return (
