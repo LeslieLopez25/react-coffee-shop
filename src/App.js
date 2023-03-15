@@ -10,7 +10,7 @@ import {
 } from "./components/Products/data";
 import Feature from "./components/Feature/feature.component";
 import Footer from "./components/Footer/footer.component";
-import VideoBanner from "./components/BannerSections/VideoBanner/video.component";
+import VideoBanner from "./components/BannerSection/VideoBanner/video.component";
 import Gallery from "./components/Gallery/gallery.component";
 
 function App() {
