@@ -1,13 +1,8 @@
 import styled from "styled-components";
-import ImgBg from "../../images/shop1.jpg";
+import ImgBg from "../../images/shop.jpg";
 
 export const HeroContainer = styled.div`
-  background: linear-gradient(
-      to right,
-      hsl(32.9, 100%, 50%, 0.2),
-      hsl(0, 100%, 27.3%, 0.1)
-    ),
-    url(${ImgBg});
+  background: url(${ImgBg});
   background-position: center;
   background-size: cover;
   height: 100%;
