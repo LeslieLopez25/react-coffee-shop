@@ -4,9 +4,9 @@ import drink3 from "../../images/coffee3.jpg";
 import sandwich1 from "../../images/sandwich1.jpg";
 import sandwich2 from "../../images/sandwich2.jpg";
 import sandwich3 from "../../images/sandwich3.jpg";
-import specials1 from "../../images/belgium-waffles.jpg";
-import specials2 from "../../images/quiche.jpeg";
-import specials3 from "../../images/tiramisu.jpg";
+import specials1 from "../../images/special1.jpg";
+import specials2 from "../../images/special2.jpeg";
+import specials3 from "../../images/special3.jpg";
 
 export const coffeeData = [
   {
