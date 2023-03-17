@@ -43,7 +43,7 @@ export const HeroH1 = styled.h1`
   font-size: clamp(2.5rem, 10vw, 5rem);
   font-family: "Signika Negative", sans-serif;
   letter-spacing: 0.187rem;
-  text-shadow: 0.125rem 0.125rem 0.25rem hsl(45, 100%, 60%);
+  text-shadow: 0.125rem 0.125rem hsl(45, 100%, 60%);
   margin-bottom: 1rem;
   box-shadow: 0.187rem 0.31rem hsl(0, 16.7%, 7.1%);
 `;
@@ -52,7 +52,7 @@ export const HeroP = styled.p`
   color: hsl(3.4, 98.7%, 31.2%);
   font-size: clamp(2rem, 2.5vw, 3rem);
   font-family: "Signika Negative", sans-serif;
-  text-shadow: 0.0625rem 0.0625rem 0.125rem hsl(45, 100%, 60%);
+  text-shadow: 0.0625rem 0.0625rem hsl(45, 100%, 60%);
   margin-bottom: 2rem;
 `;
 
