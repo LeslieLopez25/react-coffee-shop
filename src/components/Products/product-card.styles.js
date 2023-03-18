@@ -25,7 +25,7 @@ export const ProductImg = styled.img`
   min-width: 18.75rem;
   max-width: 100%;
   height: 18.75rem;
-  box-shadow: 0.5rem 0.5rem 1rem hsl(24.5, 57.6%, 33.3%);
+  box-shadow: 0.5rem 0.5rem hsl(24.5, 57.6%, 33.3%);
 `;
 
 export const ProductsHeading = styled.h1`

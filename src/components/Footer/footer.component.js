@@ -14,9 +14,10 @@ import {
   SocialIcons,
   SocialLogo,
   WebsiteRights,
-  Sun,
+  Logo,
   SocialIconLink,
 } from "./footer.styles";
+import SunLogo from "../../images/sunrise-logo.png";
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/">The Sunrise Cafe</SocialLogo>
-            <Sun />
+            <Logo img src={SunLogo} alt="logo" />
             <WebsiteRights>
               The Sunrise Cafe © {new Date().getFullYear()}
             </WebsiteRights>

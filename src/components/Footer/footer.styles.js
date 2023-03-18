@@ -1,13 +1,12 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import FooterImg from "../../images/beans.jpg";
-import { FaSun } from "react-icons/fa";
 
 export const FooterContainer = styled.footer`
   background: linear-gradient(
       to right,
-      hsl(0, 100%, 27.3%, 0.8),
-      hsl(32.9, 100%, 50%, 0.8)
+      hsl(0, 100%, 27.3%, 0.3),
+      hsl(32.9, 100%, 50%, 0.3)
     ),
     url(${FooterImg});
   background-size: cover;
@@ -47,24 +46,28 @@ export const SocialLogo = styled(Link)`
   color: hsl(32.9, 100%, 50%);
   font-size: 1.5rem;
   font-weight: bold;
+  position: relative;
+  top: 0.5rem;
   text-decoration: none;
-  text-shadow: 0.0625rem 0.0625rem 0.18rem hsl(3.4, 98.7%, 31.2%);
+  text-shadow: 0.0625rem 0.0625rem hsl(3.4, 98.7%, 31.2%);
   margin-bottom: 1rem;
   cursor: pointer;
 
-  @media screen and (max-width: 40.62em) {
+  @media screen and (max-width: 40.625em) {
     position: relative;
-    bottom: 0.625rem;
     left: 0;
+    bottom: 0.625rem;
   }
 `;
 
 export const WebsiteRights = styled.div`
   color: hsl(0, 0%, 100%);
+  text-shadow: 0.0625rem 0.0625rem hsl(3.4, 98.7%, 31.2%);
 
   @media screen and (max-width: 40.625em) {
     position: relative;
-    bottom: 0.8125rem;
+    left: 0.5rem;
+    bottom: 1rem;
   }
 `;
 
@@ -80,25 +83,27 @@ export const SocialIconLink = styled.a`
   font-size: 1.5rem;
 
   &:hover {
-    color: hsl(24.6, 33.7%, 32.5%);
+    color: hsl(3.4, 98.7%, 31.2%);
   }
 
   @media screen and (max-width: 40.625em) {
     position: relative;
     top: 0.625rem;
+    left: 1rem;
   }
 `;
 
-export const Sun = styled(FaSun)`
-  color: hsl(49.4, 100%, 64.5%);
-  font-size: 1.87rem;
+export const Logo = styled.img`
+  width: 2rem;
+  height: 2rem;
   position: absolute;
-  top: 460.31rem;
-  left: 18.12rem;
+  left: 18.5rem;
 
   @media screen and (max-width: 40.625em) {
-    position: absolute;
-    top: 870.5rem;
-    left: 17.12rem;
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    bottom: 2.3rem;
+    left: 6rem;
   }
 `;
