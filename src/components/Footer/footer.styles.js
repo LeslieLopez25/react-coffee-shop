@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import FooterImg from "../../images/board.jpg";
+import FooterImg from "../../images/beans.jpg";
 import { FaSun } from "react-icons/fa";
 
 export const FooterContainer = styled.footer`

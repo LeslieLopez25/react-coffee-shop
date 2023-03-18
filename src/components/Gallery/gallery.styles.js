@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import Img1 from "../../images/sign1.jpeg";
-import Img2 from "../../images/person1.jpg";
-import Img3 from "../../images/sign2.jpeg";
-import Img4 from "../../images/person2.jpg";
-import Img5 from "../../images/coffee-machine.jpg";
+import Img1 from "../../images/cafe.jpg";
+import Img2 from "../../images/person.jpg";
+import Img3 from "../../images/sign.jpeg";
+import Img4 from "../../images/making-coffee.jpg";
+import Img5 from "../../images/board.jpg";
 
 export const GalleryContainer = styled.div`
   display: flex;
