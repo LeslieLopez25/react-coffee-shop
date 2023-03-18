@@ -61,6 +61,8 @@ export const SocialLogo = styled(Link)`
 `;
 
 export const WebsiteRights = styled.div`
+  position: relative;
+  left: 3rem;
   color: hsl(0, 0%, 100%);
   text-shadow: 0.0625rem 0.0625rem hsl(3.4, 98.7%, 31.2%);
 
