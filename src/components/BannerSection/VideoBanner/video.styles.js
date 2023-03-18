@@ -20,10 +20,10 @@ export const VideoContainer = styled.div`
 export const VideoBg = styled.video`
   -o-object-fit: cover;
   object-fit: cover;
-  width: 84.31rem;
+  width: 100vw;
   height: 100%;
 
   @media screen and (max-width: 40.625em) {
-    width: 23.4rem;
+    width: 100vw;
   }
 `;
