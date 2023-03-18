@@ -32,7 +32,7 @@ export const FeatureContainer = styled.div`
 `;
 
 export const FeatureButton = styled.button`
-  background: hsl(32.9, 100%, 50%);
+  background: hsl(32.2, 30.8%, 73.9%);
   color: hsl(0, 16.7%, 7.1%);
   font-size: 1.4rem;
   padding: 0.6rem 3rem;

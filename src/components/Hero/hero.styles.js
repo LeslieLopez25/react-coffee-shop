@@ -33,7 +33,7 @@ export const HeroItems = styled.div`
   text-transform: uppercase;
   line-height: 1;
 
-  @media screen and (max-width: 40.62em) {
+  @media screen and (max-width: 40.625em) {
     width: 100%;
   }
 `;
@@ -66,7 +66,7 @@ export const HeroBtn = styled.button`
   transition: 0.2s ease-out;
 
   &:hover {
-    background: hsl(32.9, 100%, 50%);
+    background: hsl(32.2, 30.8%, 73.9%);
     color: hsl(0, 16.7%, 7.1%);
     transition: 0.2s ease-out;
     cursor: pointer;

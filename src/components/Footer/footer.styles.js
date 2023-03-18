@@ -35,7 +35,7 @@ export const SocialMediaWrap = styled.div`
   max-width: 68.75rem;
   margin: 1rem auto 0 auto;
 
-  @media screen and (max-width: 40.62em) {
+  @media screen and (max-width: 40.625em) {
     flex-direction: column;
   }
 `;
@@ -62,7 +62,7 @@ export const SocialLogo = styled(Link)`
 export const WebsiteRights = styled.div`
   color: hsl(0, 0%, 100%);
 
-  @media screen and (max-width: 40.62em) {
+  @media screen and (max-width: 40.625em) {
     position: relative;
     bottom: 0.8125rem;
   }
@@ -83,7 +83,7 @@ export const SocialIconLink = styled.a`
     color: hsl(24.6, 33.7%, 32.5%);
   }
 
-  @media screen and (max-width: 40.62em) {
+  @media screen and (max-width: 40.625em) {
     position: relative;
     top: 0.625rem;
   }
@@ -96,7 +96,7 @@ export const Sun = styled(FaSun)`
   top: 460.31rem;
   left: 18.12rem;
 
-  @media screen and (max-width: 40.62em) {
+  @media screen and (max-width: 40.625em) {
     position: absolute;
     top: 870.5rem;
     left: 17.12rem;

@@ -39,7 +39,7 @@ export const GalleryImg1 = styled.div`
   max-height: 25rem;
   height: 100%;
 
-  @media screen and (max-width: 40.62em) {
+  @media screen and (max-width: 40.625em) {
     -o-object-fit: cover;
     width: 30%;
     height: 100%;
@@ -62,7 +62,7 @@ export const GalleryImg2 = styled.div`
   max-height: 25rem;
   height: 100%;
 
-  @media screen and (max-width: 40.62em) {
+  @media screen and (max-width: 40.625em) {
     -o-object-fit: cover;
     position: absolute;
     left: 5rem;
@@ -86,7 +86,7 @@ export const GalleryImg3 = styled.div`
   width: 20%;
   height: 100%;
 
-  @media screen and (max-width: 40.62em) {
+  @media screen and (max-width: 40.625em) {
     display: none;
   }
 `;
@@ -106,7 +106,7 @@ export const GalleryImg4 = styled.div`
   max-height: 25rem;
   height: 100%;
 
-  @media screen and (max-width: 40.62em) {
+  @media screen and (max-width: 40.625em) {
     display: none;
   }
 `;
@@ -126,7 +126,7 @@ export const GalleryImg5 = styled.div`
   max-height: 25rem;
   height: 100%;
 
-  @media screen and (max-width: 40.62em) {
+  @media screen and (max-width: 40.625em) {
     position: absolute;
     left: 18.12rem;
     width: 22.8%;
