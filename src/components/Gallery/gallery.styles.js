@@ -18,6 +18,10 @@ export const GalleryContainer = styled.div`
   padding: 0 1rem;
   max-height: 62.5rem;
   height: 25rem;
+
+  @media screen and (max-width: 40.625em) {
+    overflow-y: hidden;
+  }
 `;
 
 export const GalleryImg1 = styled.div`
