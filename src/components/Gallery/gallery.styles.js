@@ -37,7 +37,7 @@ export const GalleryImg1 = styled.div`
   padding: 0 1rem;
   width: 20.91vw;
   max-height: 25rem;
-  height: 100%;
+  height: 100vh;
 
   @media screen and (max-width: 40.625em) {
     width: 25vw;
@@ -59,7 +59,7 @@ export const GalleryImg2 = styled.div`
   padding: 0 1rem;
   width: 20.91vw;
   max-height: 25rem;
-  height: 100%;
+  height: 100vh;
 
   @media screen and (max-width: 40.625em) {
     position: relative;
@@ -80,8 +80,8 @@ export const GalleryImg3 = styled.div`
   position: absolute;
   left: 33.75rem;
   padding: 0 1rem;
-  max-height: 25rem;
   width: 20.91vw;
+  max-height: 25rem;
   height: 100vh;
 
   @media screen and (max-width: 40.625em) {

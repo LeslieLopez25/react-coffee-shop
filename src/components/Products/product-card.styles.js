@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const ProductsContainer = styled.div`
   background: hsl(10.2, 93.7%, 12.4%);
   color: hsl(0, 0%, 100%);
-  width: 100%;
-  min-height: 100%;
+  width: 100vw;
+  min-height: 100vh;
   padding: 5rem calc((100vw - 81.25rem) / 2);
 `;
 
@@ -23,7 +23,7 @@ export const ProductSection = styled.div`
 
 export const ProductImg = styled.img`
   min-width: 18.75rem;
-  max-width: 100%;
+  max-width: 20vw;
   height: 18.75rem;
   box-shadow: 0.5rem 0.5rem hsl(24.5, 57.6%, 33.3%);
 `;

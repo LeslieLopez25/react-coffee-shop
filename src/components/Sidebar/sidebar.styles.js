@@ -9,13 +9,13 @@ export const SidebarContainer = styled.aside`
   position: fixed;
   top: 0;
   width: 21.87rem;
-  height: 100%;
+  height: 100vh;
   transition: 0.3s ease-in-out;
   right: ${({ isOpen }) => (isOpen ? "0" : "-62.5rem")};
   z-index: 999;
 
   @media screen and (max-width: 25em) {
-    width: 100%;
+    width: 100vw;
   }
 `;
 

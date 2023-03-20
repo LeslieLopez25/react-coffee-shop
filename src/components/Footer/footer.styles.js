@@ -23,8 +23,8 @@ export const FooterWrap = styled.div`
 `;
 
 export const SocialMedia = styled.section`
-  width: 100%;
   max-width: 81.25rem;
+  width: 100vw;
 `;
 
 export const SocialMediaWrap = styled.div`
@@ -105,7 +105,7 @@ export const Logo = styled.img`
     width: 2rem;
     height: 2rem;
     position: relative;
-    bottom: 2.3rem;
     left: 6rem;
+    bottom: 2.3rem;
   }
 `;

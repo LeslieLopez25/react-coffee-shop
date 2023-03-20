@@ -73,7 +73,7 @@ export const Coffee = styled.img`
   @media screen and (max-width: 40.625em) {
     font-size: 1.56rem;
     position: relative;
-    bottom: 1.5rem;
     left: 2rem;
+    bottom: 1.5rem;
   }
 `;

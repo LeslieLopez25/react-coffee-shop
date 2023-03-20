@@ -21,7 +21,7 @@ export const VideoBg = styled.video`
   -o-object-fit: cover;
   object-fit: cover;
   width: 100vw;
-  height: 100%;
+  height: 70vh;
 
   @media screen and (max-width: 40.625em) {
     width: 100vw;

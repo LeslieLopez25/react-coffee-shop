@@ -10,12 +10,12 @@ export const HeroContainer = styled.div`
     url(${ImgBg});
   background-position: center;
   background-size: cover;
-  height: 100%;
+  height: 100vh;
 `;
 
 export const HeroContent = styled.div`
-  height: calc(100% - 5rem);
   max-height: 100%;
+  height: calc(100% - 5rem);
   padding: 0rem calc ((100vw - 81.25rem) /2);
 `;
 
@@ -27,14 +27,14 @@ export const HeroItems = styled.div`
   color: hsl(0, 0%, 100%);
   padding: 0 2rem;
   width: 40.62rem;
+  max-height: 90vh;
   height: 37.5rem;
-  max-height: 100%;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1;
 
   @media screen and (max-width: 40.625em) {
-    width: 100%;
+    width: 80vh;
   }
 `;
 
