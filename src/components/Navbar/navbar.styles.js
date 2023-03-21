@@ -9,14 +9,13 @@ export const Nav = styled.nav`
   height: 5rem;
 `;
 
-export const NavLink = styled(Link)`
+export const NavTitle = styled.div`
   display: flex;
   align-items: center;
   color: hsl(32.9, 100%, 50%);
   font-size: 3.12rem;
   text-decoration: none;
   text-shadow: 0.125rem 0.125rem hsl(3.4, 98.7%, 31.2%);
-  cursor: pointer;
 
   @media screen and (max-width: 40.625em) {
     font-size: 3rem;
