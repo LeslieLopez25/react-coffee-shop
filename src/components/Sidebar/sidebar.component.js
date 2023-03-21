@@ -17,9 +17,8 @@ const index = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarMenu>
         <SidebarLink to="/">Drinks</SidebarLink>
-        <SidebarLink to="/">Desserts</SidebarLink>
         <SidebarLink to="/">Sandwiches</SidebarLink>
-        <SidebarLink to="/">Full Menu</SidebarLink>
+        <SidebarLink to="/">Specials</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
         <SidebarRoute to="/">Order Now</SidebarRoute>
