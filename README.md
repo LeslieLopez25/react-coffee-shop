@@ -10,7 +10,7 @@
 
 ### Screenshots
 
-<img src="src/screenshots/screenshot-1.png" width="400"> <img src="src/screenshots/screenshot-2.png" width="400" height="100%">
+<img src="src/screenshot/screenshot.png" width="400">
 
 ---
 
