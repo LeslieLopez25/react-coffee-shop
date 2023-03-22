@@ -2,7 +2,7 @@
 
 <h2>A Coffee Shop React Website Using Styled Components. </h2>
 
-<p>This website is responsive using flexbox, grid, and CSS custom properties. This is a Coffee shop website that displays a few products of what's available, video banner, and small gallery displaying images of what a coffee shop provides. Live site and screenshots provided.</p>
+<p>This website is responsive using flexbox, grid, and CSS custom properties. This is a Coffee shop website that displays a few products of what's available, video banner, and small gallery displaying images of what a coffee shop provides. This project focuses mainly on the front-end side. Live site and screenshots provided.</p>
 
 ### Link
 
