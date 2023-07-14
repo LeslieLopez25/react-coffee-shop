@@ -1,8 +1,8 @@
 <h1>The Sunrise Cafe :sunny:</h1>
 
-<h2>A Coffee Shop React Website Using Styled Components. </h2>
+<h2>A coffee shop website built using React and styled-components. </h2>
 
-<p>This website is responsive using flexbox, grid, and CSS custom properties. This is a Coffee shop website that displays a few products of what's available, video banner, and small gallery displaying images of what a coffee shop provides. This project focuses mainly on the front-end side. Live site and screenshots provided.</p>
+<p>This website is responsive and it's built using React and styled-components CSS. This project focuses mainly on the front-end side demonstrating a coffee shop site with products that the shop sells. Live site and screenshots provided.</p>
 
 ### Link
 
